@@ -1,0 +1,35 @@
+.top-header {
+    padding: .5rem 0;
+    border-bottom: 1px solid $border-color;
+    font-size: 14px;
+
+    .contact-info {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-header {
+        .contact-info {
+            display: block;
+
+            .content-wrap {
+                display: flex;
+                justify-content: flex-end;
+                gap: 2rem;
+                align-items: center;
+
+                .item {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 1rem;
+
+                    i {
+                        color: $medium-primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
