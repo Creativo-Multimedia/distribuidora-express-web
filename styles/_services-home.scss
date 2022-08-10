@@ -1,0 +1,32 @@
+.services-home {
+    background-color: $medium-light-bg;
+
+    .services-items {
+        padding: 2rem 0;
+
+        .rounded-icon {
+            width: 7rem;
+            height: 7rem;
+            border: 1px solid $light-primary-color;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: $light-primary-color;
+                font-size: 3rem;
+            }
+
+            &:hover {
+                background-color: $light-primary-color;
+                
+                i {
+                    color: $light-color-text;
+                }
+            }
+        }
+    }
+}
