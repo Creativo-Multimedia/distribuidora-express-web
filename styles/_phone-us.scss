@@ -1,0 +1,16 @@
+.phone-us {
+    background-color: $light-primary-color;
+    padding: 2rem 0;
+    text-align: center;
+
+    h3,
+    a {
+        color: $light-color-text;
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+
+    a:hover {
+        color: $dark-primary-color;
+    } 
+}

@@ -1,0 +1,20 @@
+.our-stops {
+    background-color: $dark-light-bg;
+
+    .map-img {
+        overflow: hidden;
+
+        img {
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    .stops {
+        ul {
+            list-style: disc;
+            padding-left: 1rem;
+        }
+    }
+}
