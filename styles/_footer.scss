@@ -1,0 +1,13 @@
+footer {
+    background-color: $dark-primary-color;
+    color: $light-color-text;
+    padding: 2rem 0;
+
+    a {
+        color: $light-color-text;
+
+        &:hover {
+            color: $light-primary-color;
+        }
+    }
+}
