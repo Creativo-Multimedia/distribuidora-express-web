@@ -1,8 +1,5 @@
 .call-to-action {
-    background-image: url('../assets/btn-bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: $dark-primary-color;
     padding: 2rem 0;
     text-align: center;
     color: $light-color-text;
@@ -28,6 +25,11 @@
 
 @media screen and (min-width: 992px) {
     .call-to-action {
+        background-color: none;
+        background-image: url('../assets/btn-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         text-align: left;
 
         h2 {
