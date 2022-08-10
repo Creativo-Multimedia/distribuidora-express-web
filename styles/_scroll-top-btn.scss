@@ -1,0 +1,21 @@
+.scroll-top-btn {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: $dark-primary-color;
+    color: $light-color-text;
+
+    &:hover {
+        background-color: $medium-primary-color;
+    }
+}
+
+.scroll-top-btn.active {
+    visibility: visible;
+    opacity: 1;
+}
