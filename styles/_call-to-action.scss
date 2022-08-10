@@ -1,0 +1,37 @@
+.call-to-action {
+    background-image: url('../assets/btn-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    text-align: center;
+    color: $light-color-text;
+
+    h2 {
+        color: $light-color-text;
+    }
+
+    .btn-outline-primary {
+        border: 3px solid $light-color-text;
+        color: $light-color-text;
+        padding: 1.25rem 2rem;
+
+        &:hover,
+        &:active,
+        &:focus {
+            border: 3px solid $dark-primary-color;
+            background-color: $dark-primary-color;
+            box-shadow: none;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .call-to-action {
+        text-align: left;
+
+        h2 {
+            margin-bottom: .75rem;
+        }
+    }
+}
