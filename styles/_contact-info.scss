@@ -1,0 +1,21 @@
+.contact-info {
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .item {
+            i {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                color: $light-primary-color;
+            }
+
+            a {
+                color: $medium-color-text;
+            }
+        }
+    }
+}
