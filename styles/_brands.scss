@@ -1,0 +1,13 @@
+.brands {
+    background-color: $medium-light-bg;
+    .brands-container {
+        .item {
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    }
+}

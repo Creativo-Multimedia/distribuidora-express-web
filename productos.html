@@ -15,7 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <title>Distribuidora Express - Nuestra empresa</title>
+    <title>Distribuidora Express - Productos</title>
 </head>
 <body>
     <div class="loader" id="loader">
@@ -70,10 +70,10 @@
                     <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="nuestra-empresa.html">Nuestra empresa</a>
+                    <a class="nav-link" href="nuestra-empresa.html">Nuestra empresa</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a>
+                    <a class="nav-link active" href="productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contactenos.html">Contáctenos</a>
@@ -85,72 +85,30 @@
     </header>
     <!-- Header -->
 
-    <!-- About us Image slider -->
-    <section class="about-us-slider d-none d-lg-block">
-      <article class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/nosotros-1.jpg" class="d-block w-100" alt="Distribuidora Express Alimentos congelados">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/nosotros-2.jpg" class="d-block w-100" alt="Distribuidora Express Alimentos congelados">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/nosotros-3.jpg" class="d-block w-100" alt="Distribuidora Express Alimentos congelados">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/nosotros-4.jpg" class="d-block w-100" alt="Distribuidora Express Alimentos congelados">
-            </div>
+    <!-- Product gallery -->
+    <section class="product-gallery">
+      <article class="container text-center">
+        <div class="row mb-5">
+          <div class="col">
+            <h2>Galería de productos</h2>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        </div>
+        <div class="row products-container">
+          <!-- Render products -->
         </div>
       </article>
     </section>
-    <!-- About us Image slider -->
+    <!-- Product gallery -->
 
-    <!-- About us -->
-    <section class="about-us">
+    <!-- Brands -->
+    <section class="brands">
       <article class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <h3>Nuestra empresa</h3>
-            <p><b>Distribuidora Express</b>, surge a inicios del año 2012 en el ramo de alimentos congelados. La transformación de la empresa, tal como los tiempos exigen, nos ha impuesto el desafío de adecuarnos a los tiempos que corren. Es por eso que hoy en día, además de comercializar una amplia gama de productos dentro del rubro alimenticio, también ofrecemos como servicio, el suministro de equipos de frío y sus derivados. Por lo mencionado anteriormente, es que, a partir del presente año, la empresa comienza a dar un giro en su rumbo y ampliar la gama de ofertas, tanto de productos como de servicios. <br> 
-              <b>Distribuidora Express</b>, es una marca de referencia en el rubro y en pleno proceso de expansión. Actualmente, nos satisface llegar a gran parte del interior del país (Canelones, Durazno, Flores, Florida, Paso de los Toros, San Bautista, San Jacinto, San Ramon, Sta Lucia, Sta Rosa, Sarandi del Yi, Sarandi Grande, Sauce, Tacuarembo, Tala) de forma directa o por medio de nuestros distribuidores.</p><br>
-            <p>Manteniendo nuestra raíz y valores, en el origen familiar, es que recorremos éste camino, de una manera profesional y con atención personalizada. <br> 
-              Nuestra prioridad, es fortalecer en cada momento, las relaciones humanas, de respeto, franca y cristalina, con el cliente que se acerca a nuestra empresa.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/nosotros-5.jpg" alt="Distribuidora Express Alimentos congelados">
-          </div>
+        <div class="row brands-container">
+          <!-- Render brands -->
         </div>
       </article>
     </section>
-    <!-- About us -->
-
-    <!-- TimeLine section -->
-    <section class="time-line">
-      <article class="container">
-        <div class="row text-center mb-5">
-          <h2>La construcción de nuestro local Sarandí Grande</h2>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6 offset-lg-3">
-            <div class="time-line-container">
-                <!-- Render images -->
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-    <!-- TimeLine section -->
+    <!-- Brands -->
 
     <!-- Bottom -->
     <section class="bottom">
@@ -201,7 +159,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="./js/index.js" type="module"></script>
-    <script src="js/no-modules.js" nomodule></script> <!-- IE support -->
-    <script src="js/renderTimeLine.js"></script>
+    <script src="./js/no-modules.js" nomodule></script> <!-- IE support -->
+    <script src="./js/renderProducts.js"></script>
+    <script src="./js/renderBrands.js"></script>
 </body>
 </html>
