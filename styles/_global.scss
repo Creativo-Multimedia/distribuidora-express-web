@@ -34,18 +34,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $primary-font;
-  color: $dark-color-text;
-  font-weight: 700;
-  margin-bottom: 1.75rem;
+    font-family: $primary-font;
+    color: $dark-color-text;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
 }
 
 h1.main-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  text-indent: -9999em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    text-indent: -9999em;
 }
 
 h2 {
@@ -65,4 +65,36 @@ a {
     &:hover {
         color: $dark-primary-color;
     }
+}
+
+// Buttons -------------------------------------------------------------------------------------------
+
+.btn {
+    border-radius: $border-radius;
+    font-family: $primary-font;
+    padding: .5rem 1rem;
+}
+
+.btn-primary {
+    background-color: $light-primary-color;
+    border: .12rem solid $light-primary-color;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: transparent;
+    border: .12rem solid $light-primary-color;
+    color: $light-primary-color;
+}
+
+.btn-secondary {
+    background-color: $secondary-color;
+    border: .12rem solid $secondary-color;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+    background-color: transparent;
+    border: .12rem solid $secondary-color;
+    color: $secondary-color;
 }
